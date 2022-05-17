@@ -1,0 +1,85 @@
+img {
+    height: 200;
+    width: auto;
+    text-align: center;
+  }
+
+  body {
+      background: rgb(22, 22, 19);
+      color: rgb(245, 245, 245);
+      text-align: center;
+  }
+  h2{
+      text-align: left;
+  }
+  
+ 
+    a.two:link {color:#ff0000;}
+    a.two:visited {color:#0000ff;}
+    a.two:hover {font-size:100%;}
+    
+    .two {
+    font-size: 20px;
+    }
+  
+p{
+    text-align: center
+}
+  h1{
+    font-size: 44px;
+    color: rgb(204, 193, 93);
+    background-color: rgb(47, 47, 53);
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  ul{
+    text-align: justify;
+
+  }
+  ol {
+    text-align: justify;
+
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
